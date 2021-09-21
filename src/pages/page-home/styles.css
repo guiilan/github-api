@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
+  .header{
+    background-color: #2681C2;
+    height: 30vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .input{
+    z-index: 2;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -20px;
+    
+  }
+  .form-input{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+  .btn-form{
+    margin-left: 1%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .body-res{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .card-res{
+    background-color: #C4C4C4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 70vh;
+    height: 40vh;
+    display: flex;
+    border-radius: 8px;
+  }
+  
+  .container-imagem{
+    width: 20vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  
+  .container-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+    justify-content: center;
+  }
+  
+  .container-btns{
+    display: flex;
+    margin-top: 2%;
+    padding-inline: 50px;
+  }
